@@ -1,10 +1,3 @@
-/**
-* Template Name: WeBuild - v4.6.1
-* Template URL: https://bootstrapmade.com/free-bootstrap-coming-soon-template-countdwon/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -116,85 +109,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 56px;
   margin: 30px 0 60px 0;
 }
-#hero .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-#hero .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-#hero .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-#hero .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading-notify 1s linear infinite;
-  animation: animate-loading-notify 1s linear infinite;
-}
-@-webkit-keyframes animate-loading-notify {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading-notify {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-#hero .php-email-form input {
-  border-radius: 3px;
-  box-shadow: none;
-  font-size: 14px;
-  border: 0;
-  padding: 0px 15px 2px 15px;
-  width: 250px;
-  height: 40px;
-  margin: 0 8px;
-}
-#hero .php-email-form button[type=submit] {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 7px 30px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #4f92af;
-  color: #fff;
-  background: #4f92af;
-}
-#hero .php-email-form button[type=submit]:hover {
-  background: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -209,10 +124,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
-  }
-  #hero .php-email-form input {
-    margin: 0 auto;
-  }
+  }  
 }
 @media (max-width: 575px) {
   #hero .countdown {
@@ -278,61 +190,7 @@ section {
 .contact .contact-address, .contact .contact-phone, .contact .contact-email {
   margin-bottom: 20px;
 }
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #4f92af;
-}
-.contact .php-email-form button[type=submit] {
-  background: #4f92af;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-.contact .php-email-form button[type=submit]:hover {
-  background: #72a8bf;
-}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
